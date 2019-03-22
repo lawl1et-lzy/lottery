@@ -1,0 +1,11 @@
+{
+  "name": "a_code-list",
+  "version": "1.0.3",
+  "description": "area city code",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "liyujie",
+  "license": "ISC"
+}

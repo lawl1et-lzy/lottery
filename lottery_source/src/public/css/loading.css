@@ -1,0 +1,33 @@
+.custom-loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.custom-loading > .loading-item{
+  height: 20px;
+  width: 20px;
+  border: 2px solid;
+  border-color: #2A6853;
+  border-radius: 50%;
+  border-top: 0;
+  border-right: 0;
+  animation:loading 1s infinite linear;
+  -webkit-animation:loading 1s infinite linear; /* Safari 和 Chrome */
+}
+.custom-loading > .loading-text{
+  color: rgba(0,0,0,0.5);
+  font-size: 12px;
+  margin-left: 12px;
+}
+
+@keyframes loading
+{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg)}
+}
+
+@-webkit-keyframes loading 
+{
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg)}
+}

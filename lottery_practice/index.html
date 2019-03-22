@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>wechat-shop</title>
+  </head>
+  <body>
+    <div id="load" style="text-align: center;margin-top: 15px;font-size: 14px;color: rgba(0,0,0,0.5);">请稍后...</div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+  <script>
+    let app = document.getElementById('app')
+    app.style.opacity = 0
+    window.onload = function () {
+      let load = document.getElementById('load')
+      load.style.display = 'none'
+      app.style.opacity = 1
+    }
+  </script>
+</html>
